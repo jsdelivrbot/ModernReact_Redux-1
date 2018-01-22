@@ -11,7 +11,7 @@ componentDidMount(){
 }
 
 renderPosts() {
-  //lodash has a map function that caniterate over objects
+  //lodash has a map function that can iterate over objects
   return _.map(this.props.posts, post => {
     return (
       <li className="list-group-item" key={post.id}>

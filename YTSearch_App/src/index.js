@@ -29,7 +29,7 @@ class App extends Component {
     }, (videos) => {
       //es6 syntax* if key and prop or same name, videos: videos can be shortened just to videos
       this.setState({
-        videos: videos,
+        videos,
         selectedVideo: videos[0]
       });
     });

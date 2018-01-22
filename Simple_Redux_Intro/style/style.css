@@ -1,0 +1,20 @@
+
+li {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
+
+/* react css transition group */
+/* starting state of animation */
+.fade-enter {
+  right: 100px;
+}
+
+/* end state of animation */
+.fade-enter-active {
+  right: 0px;
+  transition: .5s ease-in all;

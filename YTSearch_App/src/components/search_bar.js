@@ -15,7 +15,7 @@ class SearchBar extends Component {
           <input
             // controlled field -> form element whose value is set by the state.
             // value is now determined by state, instead of state determining value
-            // value will no be the correct value of the input at any given time
+            // value will now be the correct value of the input at any given time
             value={this.state.term}
             onChange={event => this.onInputChange(event.target.value)}
             />
@@ -32,14 +32,5 @@ class SearchBar extends Component {
   }
 
 }
-
-
-
-
-
-
-
-
-
 
 export default SearchBar;
